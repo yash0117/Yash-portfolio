@@ -3,6 +3,7 @@
 import zerodhaImg from "../assets/zerodha.png";
 import amazonImg from "../assets/amazon.png";
 import mangalShringarImg from "../assets/mangal-shringar.png";
+import repoMentorImg from "../assets/repoMentor.png";
 
 const projects = [
     {
@@ -33,6 +34,18 @@ const projects = [
         live:
             "https://mangal-shringar-ecommerce-beta.vercel.app/",
     },
+
+    {
+        image: repoMentorImg,
+        title: "RepoMentor-AI Project Mentor",
+        description:
+            "AI-powered GitHub project analyzer and interview assistant that analyzes repositories, explains project architecture, identifies technologies and important files, and helps developers prepare for project-based interviews.",
+        github:
+            "https://github.com/yash0117/RepoMentor",
+        live:
+            "https://repo-mentor-inky.vercel.app/",
+    },
+
 ];
 
 export default function Projects() {
